@@ -1,4 +1,4 @@
-# ⚙️💠 C++ All Functions Project— “C++ ile Projeler Kitabı” 💠⚙️
+# ⚙️💠 C++ Projects Hub — “C++ ile Projeler Kitabı” Entegre Çözümü 💠⚙️
 
 <p align="center">
   <img src="https://img.shields.io/badge/C%2B%2B-17-blue?style=for-the-badge" />
@@ -8,10 +8,3 @@
 
 Bu proje, **“C++ ile Projeler Kitabı”** içindeki **tüm fonksiyonları tek bir solution altında** toplamak,  
 bunları **kararlı**, **modüler**, **kolay genişletilebilir** bir yapı içinde çalıştırmak için hazırlanmıştır.
-
-Tek bir çalıştırılabilir programla tüm örneklere erişebilir, fonksiyonları test edebilir  
-ve kitabın içeriğini interaktif bir şekilde deneyimleyebilirsin.
-
----
-
-## 📁 Proje Yapısı
