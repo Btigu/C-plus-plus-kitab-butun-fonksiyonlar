@@ -1,0 +1,8 @@
+﻿  main.cpp
+  sayisalfonksiyonlar.cpp
+C:\Users\arge9\source\repos\cpp_all_functions\cpp_all_functions\sayisalfonksiyonlar.cpp(5,18): warning C4244: 'return': 'double' - 'float' dönüşümü; veri kaybı olabilir
+C:\Users\arge9\source\repos\cpp_all_functions\cpp_all_functions\sayisalfonksiyonlar.cpp(15,24): warning C4244: 'return': 'int' - 'float' dönüşümü; veri kaybı olabilir
+C:\Users\arge9\source\repos\cpp_all_functions\cpp_all_functions\sayisalfonksiyonlar.cpp(43,25): warning C4244: '=': 'int' - 'float' dönüşümü; veri kaybı olabilir
+  yildizfonksiyonlari.cpp
+  Kod Üretiliyor...
+  cpp_all_functions.vcxproj -> C:\Users\arge9\source\repos\cpp_all_functions\x64\Debug\cpp_all_functions.exe
