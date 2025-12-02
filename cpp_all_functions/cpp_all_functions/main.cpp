@@ -10,6 +10,9 @@ int main() {
     //alanhesaplama();
     //fibanocci_menu();
     //a_serisii();
-    enbuyuksayi();
+    //enbuyuksayi();
+    //enkucuksayi();
+    //ortalama_hesaplama();
+    pointers();
     return 0;
 }

@@ -106,16 +106,81 @@ void enbuyuksayi()
 		if (i == 1) {
 			enbuyuk = sayi;
 		}
-		else
+		else if(sayi > enbuyuk)
 		{
-			if (sayi > enbuyuk)
-			{
-				enbuyuk = sayi;
-			}
+			enbuyuk = sayi;
 		}
 
 	}
 
-	cout << "En buyuk sayi:" << enbuyuk;
+	cout << "En buyuk sayi:" << enbuyuk<< endl;
+
+}
+
+void enkucuksayi()
+{
+	cout << "Kac tane sayý gireceksiniz" << endl;
+	int sayiadet;
+	int sayi;
+	cin >> sayiadet;
+	int enkucuk;
+
+	for (int i = 1; i <= sayiadet; i++) 
+	{
+		cout << i << ". Sayiyi giriniz: " << endl;
+		cin >> sayi;
+		if (i == 1) {
+			enkucuk = sayi;
+		}
+		else if (sayi<enkucuk) {
+			enkucuk = sayi;
+		}
+
+	}
+	cout << "En kucuk sayi: " << enkucuk<< endl;
+
+
+}
+
+void ortalama_hesaplama()
+{
+	int sayiadet;
+	cout << "Kaç tane sayýnýn ortalamasýný alacaksýnýz: ";
+	cin >> sayiadet;
+	int sayi = 0;
+	int ortalama = 0;
+	for (int i = 1; i <= sayiadet; i++) {
+
+		cout << i << ". sayiyi giriniz: ";
+		cin >> sayi;
+		ortalama = sayi + ortalama;
+	}
+	ortalama = ortalama / sayiadet;
+	cout << "Bu sayýlarýn ortalamasý : " << ortalama;
+}
+
+void pointer_hesapla(int r, float  *cevre, float *alan) {
+
+	*cevre = 2 * 3.14 * r;
+	*alan = 3.14 * r * r;
+}
+void pointers() 
+{
+	float cevre, alan;
+	cout << "Dairenin yarýçapýný giriniz : ";
+	int yaricap;
+	cin >> yaricap;
+	
+	pointer_hesapla(yaricap, &cevre, &alan);
+	cout << "Dairenin cevresi: " << cevre << endl << "Dairenin Alaný: " << alan << endl;
+
+
+}
+
+
+void aralarýnda_asal() 
+{
+
+
 
 }

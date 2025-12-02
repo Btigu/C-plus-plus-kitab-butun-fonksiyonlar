@@ -10,3 +10,7 @@ void fibanocci_menu();
 int a_serisi(int n);
 void a_serisii();
 void enbuyuksayi();
+void enkucuksayi();
+void ortalama_hesaplama();
+void pointer_hesapla(int r, float* cevre, float* alan);
+void pointers();
